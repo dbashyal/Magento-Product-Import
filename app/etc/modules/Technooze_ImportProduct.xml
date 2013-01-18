@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Technooze_ImportProduct>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Technooze_ImportProduct>
+    </modules>
+</config>

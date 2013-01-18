@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Technooze_ImportProduct>
+            <version>0.1</version>
+        </Technooze_ImportProduct>
+    </modules>
+    <global>
+        <models>
+            <catalog>
+                <rewrite>
+                    <!-- Override Mage_Catalog_Model_Convert_Adapter_Product -->
+                    <convert_adapter_product>Technooze_ImportProduct_Model_Convert_Adapter_Product</convert_adapter_product>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>
